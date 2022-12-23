@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <div style=" border-style: groove;">
+    <img src="https://images-workbench.99static.com/3itldzSE1KT4RNHsCFul3cGOLyA=/99designs-contests-attachments/56/56771/attachment_56771236" 
+    height="100px" width="100px" alt="DigitalBooks" style="margin-left: 200px;"/> <button style="margin-left: 700px;" type="button" routerLink="/allbooks" class="btn btn-outline-success">All My Books</button> <button  type="button" class="btn btn-outline-success">Logout</button>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DigitalBooks
+
+    </div>
+    <br><br><br>
+    <div style="border-style: groove;">
+        <h4 style="margin-left: 600px;">Create Books</h4>
+        <table align="center">
+            
+            <tr>
+                <th><Label for="title">Title</Label></th>
+                <td><input [(ngModel)] = book.title type="text" placeholder="Enter title" id="title"></td>
+            </tr>
+            <tr>
+                <th><Label for="category">Category</Label></th>
+                <td><input [(ngModel)] = book.category type="text" placeholder="Enter Category" id="category"></td>
+            </tr>
+            <tr>
+                <th><Label for="price">Price</Label></th>
+                <td><input [(ngModel)] = book.price type="text" placeholder="Enter price" id="price"></td>
+            </tr>
+            <tr>
+                <th><Label for="authorName">Author Name</Label></th>
+                <td><input [(ngModel)] = book.authorName type="text" placeholder="Enter Author" id="authorName"></td>
+            </tr>
+            <tr>
+                <th><Label for="publisher">Publisher</Label></th>
+                <td><input [(ngModel)] = book.publisher type="text" placeholder="Enter publisher" id="publisher"></td>
+            </tr>
+            <tr>
+                <th><Label for="publishedDate">Published Date</Label></th>
+                <td><input [(ngModel)] = book.publishedDate type="text" placeholder="Enter publishedDate" id="publishedDate"></td>
+            </tr>
+            <tr>
+                <th><Label for="chapters">Chapters</Label></th>
+                <td><input [(ngModel)] = book.chapters type="text" placeholder="Enter chapters" id="chapters"></td>
+            </tr>
+            <tr>
+                <th><Label for="active">Active</Label></th>
+                <td><input [(ngModel)] = book.active type="text" placeholder="Enter status" id="active"></td>
+            </tr>
+        </table>
+        <br>
+        <label style="margin-left: 750px;"><button (click)="save()" type="button" class="btn btn-primary">Save</button></label>
+    </div>
+    
+</body>
+</html>

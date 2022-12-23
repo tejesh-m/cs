@@ -1,0 +1,38 @@
+<h2 class="display-2" style="text-align: center">{{title}}</h2>
+<br>
+<div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">FirstName</span>
+    <input [(ngModel)]=details.firstname type="text" class="form-control" placeholder="FirstName" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">LastName</span>
+    <input [(ngModel)]=details.lastname type="text" class="form-control" placeholder="LastName" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Email</span>
+    <input [(ngModel)]=details.email type="text" class="form-control" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Mobile</span>
+    <input [(ngModel)]=details.mobile type="text" class="form-control" placeholder="mobile" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <label >Gender</label>
+
+  <div class="form-check">
+    <input [(ngModel)]=details.gender class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Male" checked>
+    <label class="form-check-label" for="exampleRadios1">
+      Male
+    </label>
+  </div>
+  
+  <div class="form-check">
+    <input [(ngModel)]=details.gender class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Female" checked>
+    <label class="form-check-label" for="exampleRadios1">
+      Female
+    </label>
+  </div>
+  <button (click)="save()" type="button" class="btn btn-success">Success</button>

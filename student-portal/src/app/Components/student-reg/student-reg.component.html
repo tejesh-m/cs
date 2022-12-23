@@ -1,0 +1,36 @@
+<h2 style="text-align: center;">{{title}}</h2>
+<br>
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">First Name</span>
+    <input [(ngModel)] = student.firstname type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Last Name</span>
+    <input [(ngModel)] = student.lastname type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+    <input [(ngModel)] = student.email type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Class</span>
+    <input [(ngModel)] = student.class type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+  <br>
+  <label style="padding-left: 70px;">Gender</label>
+  <div style="padding-left: 70px;" class="form-check">
+    <input [(ngModel)] = student.gender class="form-check-input" value="Male" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      Male
+    </label>
+  </div>
+  <div style="padding-left: 70px;" class="form-check">
+    <input [(ngModel)] = student.gender class="form-check-input" value="Female" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Female
+    </label>
+  </div>
+  <button (click)="save()" style="text-align: center;" type="button" class="btn btn-outline-success">Success</button>

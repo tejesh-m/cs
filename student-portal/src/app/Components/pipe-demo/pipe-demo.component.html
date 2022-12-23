@@ -1,0 +1,6 @@
+<h2>Driver Name: {{employee.name | uppercase}}</h2>
+<h3>Base Salary: {{employee.BaseSalary | currency: "EUR"}}</h3>
+<h3>Joined Team on: {{employee.JoinedOn | date}}</h3>
+<h3>Qualification: {{employee.Qualification | lowercase}}</h3>
+<h3>Winning Percentage: {{employee.WinningPercent | percent}}</h3>
+<p>{{employee.About | ellipsis}}</p>

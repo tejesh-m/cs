@@ -1,0 +1,50 @@
+{
+  "students": [
+    {
+      "firstname": "Tejesh",
+      "lastname": "Mudiam",
+      "Gender": "Male",
+      "id": 1
+    },
+    {
+      "firstname": "Hitesh",
+      "lastname": "pg",
+      "class": 12,
+      "email": "hitesh@gmail.com",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "firstname": "venkatesh",
+      "lastname": "pasam",
+      "class": 12,
+      "email": "venkatesh@gmail.com",
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "firstname": "Sreekanth",
+      "lastname": "p",
+      "class": 12,
+      "email": "sreekanth@gmail.com",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "firstname": "Bhargav",
+      "lastname": "Narasimha",
+      "class": 5,
+      "email": "bhargav@gmail.com",
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "firstname": "Utkarsha",
+      "lastname": "ve",
+      "class": 4,
+      "email": "utk@gmail.com",
+      "gender": "Female",
+      "id": 7
+    }
+  ]
+}

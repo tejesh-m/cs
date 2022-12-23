@@ -1,0 +1,21 @@
+<ul class="list-group">
+    <li *ngFor="let b of books, index as i" class="list-group-item">
+        <span>
+            {{b.bookName}}
+        </span>
+        <span>
+            {{b.bookAuthor}}
+        </span>
+        <span>
+            {{b.bookGenre}}
+        </span>
+        <span>
+            Availability : {{b.borrowedStatus}}
+        </span>
+        <br/>
+        <span>
+            <button type="button" (click)="deleteRow(b,i)" style="margin-left: 1200px; color: red; 
+            background-color: red;" class="btn-close" aria-label="close"></button>
+        </span>
+    </li>
+  </ul>
